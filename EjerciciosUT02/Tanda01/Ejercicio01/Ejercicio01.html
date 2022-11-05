@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio01</title>
+</head>
+
+<body>
+
+    <h1>Ejercicio01</h1>
+    <p>Realiza un programa que pida dos números y luego muestre el resultado de su multiplicación.</p>
+
+    <form action="Ejercicio01.php" method="post">
+
+        <label for="multiplicacion">
+
+            <!-- Para recoger datos con php hay que tener en cuenta una serie de factores. -->
+            <!-- Primero, Lo que queramos enviar a nuestro fichero php hay que enviarlo a través de un formulario -->
+            <!-- Dicho formulatio tiene que tener los atributos "action" (el nombre del fichero php) y "metod" (post, para recoger datos con post) -->
+            <!-- Después, en los inputs, hay que tener en cuenta que php funciona con los atributos "name" de los inputs, no con id -->
+
+            Multiplica : <input name="x" type="number"> x <input type="number" name="y"> <input type="submit"
+                id="multiplica">
+
+        </label>
+
+    </form>
+
+</body>
+
+</html>
